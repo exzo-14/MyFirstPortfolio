@@ -3,8 +3,8 @@
 h1 {
     text-align: center;
     font-size: 3em;
-    color: rgb(137, 238, 252);
-    text-decoration: underline;
+    color: #7FFFD4;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
   }
 
@@ -12,7 +12,7 @@ h1 {
 p {
     text-align: center;
     font-size: 1em;
-    color: rgb(193, 209, 207);
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
   }
 
@@ -38,20 +38,25 @@ button {
 a:link {
   color: rgb(123, 245, 253);
   background-color: black;
-  border-style: solid;
-  border-color: rgb(255, 229, 112);
-  border-width: 5px;
+  border-style: dashed;
+  border-color: #98FB98;
+  border-width: 3px;
   padding: 10px;
 }
 
 /* visited link */
 a:visited {
-  color: rgb(255, 251, 190);
+  color: rgb(206, 168, 255);
+  background-color: black;
+  border-style: dashed;
+  border-color: #98FB98;
+  border-width: 3px;
+  padding: 10px;
 }
 
 /* mouse over link */
 a:hover {
-  color: rgb(206, 168, 255);
+  color: #C8F7C5;
 }
 
 /* selected link */
