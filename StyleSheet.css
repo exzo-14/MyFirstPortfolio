@@ -1,3 +1,5 @@
+
+/* H1 */
 h1 {
     text-align: center;
     font-size: 3em;
@@ -5,17 +7,20 @@ h1 {
     text-decoration: underline;
   }
 
+/* Paragraph */
 p {
     text-align: center;
     font-size: 1em;
     color: rgb(193, 209, 207);
   }
 
+/* BODY */
 body {
     background-image: url("/Images/StockImage_DayMoon.jpg");
     background-color: darkslateblue;
   }
 
+/* button */ 
 button {
   background-color: black;
   color: aliceblue;
@@ -25,3 +30,23 @@ button {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+/* unvisited link */
+a:link {
+  color: rgb(123, 245, 253);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(107, 107, 107);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(206, 168, 255);
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+} 
