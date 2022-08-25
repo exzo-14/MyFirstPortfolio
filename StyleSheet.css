@@ -1,26 +1,20 @@
 h1 {
     text-align: center;
     font-size: 3em;
-    color: rgb(83, 0, 161);
-    margin-bottom: .3em;
+    color: rgb(137, 238, 252);
     text-decoration: underline;
   }
 
-h2 {
+p {
     text-align: center;
-    font-size: 2em;
-    color: rgb(0, 0, 0);
-    margin-bottom: .3em;
+    font-size: 1em;
+    color: rgb(193, 209, 207);
   }
 
 body {
-    background-color: lightblue;
+    background-image: url("/Images/StockImage_DayMoon.jpg");
+    background-color: darkslateblue;
   }
-
-p {
-  text-align: center;
-  font-size: 1em;
-}
 
 button {
   background-color: black;
