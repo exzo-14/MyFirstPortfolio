@@ -1,3 +1,7 @@
+/* Navigation */
+nav {
+  display: block;
+}
 
 /* H1 */
 h1 {
@@ -67,4 +71,13 @@ a:active {
 /* focused link*/
 a:focus {
   color: ghostwhite;
+}
+
+.offscreen {
+  position:absolute; 
+  left:-10000px; 
+  top:auto; 
+  width:1px; 
+  height:1px; 
+  overflow:hidden;
 }
