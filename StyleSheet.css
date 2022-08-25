@@ -50,3 +50,8 @@ a:hover {
 a:active {
   color: yellow;
 } 
+
+/* focused link*/
+a:focus {
+  color: ghostwhite;
+}
