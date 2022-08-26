@@ -74,7 +74,7 @@ p {
 
 /* BODY */
 body {
-    background-image: url("/Images/StockImage_DayMoon.jpg");
+    /*background-image: url("Images/StockImage_DayMoon.jpg");*/
     background-color: darkslateblue;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -83,7 +83,7 @@ body {
 button {
   background-color: black;
   color: aliceblue;
-  text-decoration: underline;
+  text-decoration: none;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
