@@ -1,13 +1,29 @@
-/* This removes all the default margins and paddings that exist for certain elements.
+/* This removes all the default margins and paddings that exist for certain elements. */
 * {
   margin: 0;
   padding: 0;
 }
-*/
 
 /* Navigation */
 nav {
   display: block;
+}
+
+.page-header {
+  background-color: #242582;
+  padding: 1.3rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-bar a   {
+  color: white;
+  padding: 1.3rem;
+  cursor: pointer;
+}
+
+.nav-bar a.active {
+  background-color: #f64c72;
 }
 
 /* H1 */
