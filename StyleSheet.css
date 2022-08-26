@@ -1,3 +1,13 @@
+/* Screenreader pronunciation Exan*/
+.offscreen {
+  position:absolute; 
+  left:-10000px; 
+  top:auto; 
+  width:1px; 
+  height:1px; 
+  overflow:hidden;
+}
+
 /* This removes all the default margins and paddings that exist for certain elements. */
 * {
   margin: 0;
@@ -72,8 +82,8 @@ p {
     font-family: Arial, Helvetica, sans-serif;
   }
 
-/* BODY */
-body {
+/* Into Text Div*/
+.intro-text {
     /*background-image: url("Images/StockImage_DayMoon.jpg");*/
     background-color: darkslateblue;
     font-family: Arial, Helvetica, sans-serif;
@@ -125,15 +135,6 @@ a:focus {
   color: ghostwhite;
 }
 
-.offscreen {
-  position:absolute; 
-  left:-10000px; 
-  top:auto; 
-  width:1px; 
-  height:1px; 
-  overflow:hidden;
-}
-
 /* IFRAME*/
 iframe {
   width: 560px;
@@ -161,4 +162,65 @@ ul.list1 {
   list-style-position: inside;
   color: aqua;
   list-style-type: none;
+}
+
+.cake-ingredients {
+  background-image: url("Images/StockImage_EvergreenLeaves.jpg");
+}
+
+.kitchen-equipment {
+  background-image: url("Images/StockImage_DayMoon.jpg");
+}
+
+.kitchen-equipment, .cake-ingredients {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #642580;
+  background-size: cover;
+  min-height: 60%;
+
+  background-attachment: fixed;
+  min-height: 20%;
+  opacity: 0.7;
+}
+
+/*.cd-logo {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #642580;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.cd-logo {
+  background-image: url("Images/StockImage_EvergreenLeaves.jpg");
+  min-height: 100%;
+  background-size: auto;
+}*/
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: white;
+  text-align:center
+}
+
+.textSection {
+  background-color:#642580;
+  padding:10px 40px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/* Turn off parallax scrolling for tablets and phones as it is not supported */
+@media only screen and (max-device-width: 1024px) {
+  .cd-logo, .layer-cake, .kitchen-equipment, .cake-ingredients, .bowl-of-cakemix, .cake-in-oven, .decorated-cake {
+      background-attachment: scroll;
+  }
 }
