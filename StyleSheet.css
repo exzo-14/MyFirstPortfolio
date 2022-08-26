@@ -1,3 +1,10 @@
+/* This removes all the default margins and paddings that exist for certain elements.
+* {
+  margin: 0;
+  padding: 0;
+}
+*/
+
 /* Navigation */
 nav {
   display: block;
