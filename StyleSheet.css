@@ -4,13 +4,14 @@
   padding: 0;
 }
 
+
 /* Navigation */
 nav {
   display: block;
 }
 
 .page-header {
-  background-color: #242582;
+  background-color: #000000;
   padding: 1.3rem;
   display: flex;
   justify-content: flex-end;
@@ -23,7 +24,36 @@ nav {
 }
 
 .nav-bar a.active {
-  background-color: #f64c72;
+  background-color: #C8F7C5;
+}
+
+.menu-icon {
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .menu-icon {
+      display: block;
+  }
+  .nav-bar {
+  display: none;
+  position: absolute;
+  top: 3.7rem;
+  left: 0;
+  width: 100%;
+  background-color: var(--bgcolor);
+  text-align: center;
+  }
+}
+
+#toggle-menu {
+  display: none;
+}
+
+#toggle-menu:checked ~ .nav-bar {
+  display: block;
 }
 
 /* H1 */
