@@ -143,3 +143,22 @@ iframe {
   display: block;
   border-style:none;
 }
+
+/* ul */
+ul.list1 {
+  background-color: #000000;
+  /*display: block;*/
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  border-style: solid;
+  border-color: #98FB98;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-position: inside;
+  color: aqua;
+  list-style-type: none;
+}
