@@ -17,6 +17,7 @@
 /* Navigation */
 nav {
   display: block;
+  font-family: Helvetica, sans-serif;
 }
 
 .page-header {
@@ -30,6 +31,7 @@ nav {
   color: white;
   padding: 1.3rem;
   cursor: pointer;
+  font-family: Helvetica, sans-serif;
 }
 
 .nav-bar a.active {
@@ -70,7 +72,7 @@ h1 {
     font-size: 3em;
     color: #7FFFD4;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     padding: 15px;
   }
 
@@ -79,14 +81,14 @@ p {
     text-align: center;
     font-size: 1em;
     color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
   }
 
 /* Into Text Div*/
 .intro-text {
     /*background-image: url("Images/StockImage_DayMoon.jpg");*/
     background-color: darkslateblue;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
   }
 
 /* button */ 
@@ -154,14 +156,15 @@ ul.list1 {
   width: fit-content;
   border-style: solid;
   border-color: #98FB98;
-  padding: 5px;
+  padding: 10px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   list-style-position: inside;
-  color: aqua;
+  color: rgb(206, 168, 255);
   list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cake-ingredients {
@@ -209,7 +212,7 @@ h3 {
 }
 
 .textSection {
-  background-color:#642580;
+  background-color:#000000;
   padding:10px 40px;
 }
 
