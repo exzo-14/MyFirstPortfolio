@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <!-- HEAD -->
 <head>
     <link rel="stylesheet" href="StyleSheet.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <!--Bootstrap link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
         Ex-N Owens | Portfolio
     </title>
@@ -12,7 +15,22 @@
 
 <!-- BODY --> 
 <body>
-    <header>
+    <div class="page-header">
+        <div id="navigation-bar" class="nav-bar">
+            <!--<a class="active" href="/ULTRAtesting/PersonalProjects/MyFirstPortfolio/index.html">Home</a>-->
+            <a href="">About</a>
+            <a href="">LinkedIn Profile</a>
+            <a href="https://github.com/exzo-14">GitHub Profile</a>
+        </div>
+        <input type="checkbox" id="toggle-menu">
+        <label class="menu-icon" for="toggle-menu">
+            <a id="menu-icon">
+            <i class="fa fa-bars"></i>
+            </a>
+        </label>
+    </div>
+
+<!--<header>
         <div class="main-site-nav" aria-label="Main Navigation">
             <nav aria-label="Main">
                 <a href="">HTML</a>
@@ -21,7 +39,7 @@
                 <a href="">Python</a>
             </nav>
         </div>
-    </header>
+    </header>-->
 
 <!--<div class="main-site-nav" aria-label="Main Navigation">
         <nav aria-label="Main">
@@ -31,17 +49,55 @@
             <a href="">Python</a>
         </nav>
     </div>-->
-    <main>
+
+    <!--<main>-->
+    <div class="intro-text">
         <h1>
             <span aria-hidden="true">Exan Owens</span>
             <span class="offscreen">EXN Owens</span>
         </h1>
+        <br>
+        <p>
+            Webpage Portfolio <BR><BR>
+            <img src="Images/UltranautsLogo.png" alt="Ultranauts Logo"><BR>
+            Hello World! This is a test change.
+        </p><br><br>
+    </div>
 
-        <p>Webpage Portfolio</p>
+    <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/AgpWX18dby4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    -->
+    <div class="textSection">
+        <ul class="list1">
+                <li>Test Automation</li><br>
+                <li>Accessibility</li>
+                <!--<li>item_3</li>
+                <li>item_4</li>-->
+        </ul>
+    </div>
 
-        <p>Hello World! This is a test change.<p>
+    <div class="cake-ingredients">
+        
+    </div>
 
-        <a href="https://github.com/exzo-14">GitHub Profile</a>  <a href="">LinkedIn Profile</a>
-    </main>
+    <!--</main>-->
+    <!--<div class="cd-logo">
+    
+    </div>-->
+    
+    <div class="textSection">
+      <h3>SIMPLE CHOCOLATE CAKE</h3>
+      <p>This recipe is a great recipe to make a simple choclate cake.
+      It uses ingredients that can be found in most kitchen cupboards.
+      You just need to gather all the ingredients, put them into a big bowl
+      and mix them with a blender or mixer!
+      It can also be used to make cupcakes too, if you adjust
+      the cooking times as mentioned below.
+      Then you can decorate your cake however you'd like to.
+      My favourite is Nutella and sliced banana. 
+      </p>
+    </div>
+    <div class="kitchen-equipment">
+
+    </div>
 </body>
 </html>
