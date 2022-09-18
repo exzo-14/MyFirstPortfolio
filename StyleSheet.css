@@ -66,11 +66,33 @@ nav {
   display: block;
 }
 
+/* Section */
+section {
+  display: flex;
+}
+
+/* EM */
+em {
+  background-color: #000000;
+  padding: 8px;
+  border-radius: 50px;
+}
+
+/*ultranautsLogo*/
+#ultranauts-logo {
+  background-color: #000000;
+  border: #000000;
+  border-radius: 100px;
+}
+
 /* H1 */
 h1 {
     text-align: center;
     font-size: 3em;
-    color: #7FFFD4;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    /*color: #7FFFD4;*/
+    color: #5BFFE6;
     text-decoration: none;
     font-family: Helvetica, sans-serif;
     padding: 15px;
@@ -80,14 +102,16 @@ h1 {
 p {
     text-align: center;
     font-size: 1em;
-    color: #ffffff;
+    color: #F9D3A9;
     font-family: Helvetica, sans-serif;
   }
 
 /* Into Text Div*/
 .intro-text {
-    /*background-image: url("Images/StockImage_DayMoon.jpg");*/
-    background-color: darkslateblue;
+    background-image: url("Images/eXn_cyberpunk_city_street_bladerunner1.png");
+    background-repeat: round;
+    /*background-color: darkslateblue;*/
+    /*background-color: #6E599D;*/
     font-family: Helvetica, sans-serif;
   }
 
@@ -104,20 +128,22 @@ button {
 
 /* unvisited link */
 a:link {
-  color: rgb(123, 245, 253);
+  color: #37BC9D;
   background-color: black;
   border-style: dashed;
-  border-color: #98FB98;
+  border-color: #853D78;
   border-width: 3px;
+  border-radius: 30px;
   padding: 10px;
 }
 
 /* visited link */
 a:visited {
-  color: rgb(206, 168, 255);
+  /*color: rgb(206, 168, 255);*/
+  color: #37BC9D;
   background-color: black;
   border-style: dashed;
-  border-color: #98FB98;
+  border-color: #853D78;
   border-width: 3px;
   padding: 10px;
 }
@@ -129,7 +155,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: yellow;
+  color: #ffffff;
 } 
 
 /* focused link*/
@@ -150,42 +176,52 @@ iframe {
 /* ul */
 ul.list1 {
   background-color: #000000;
+  padding: 20px;
   /*display: block;*/
   text-align: center;
   height: fit-content;
   width: fit-content;
   border-style: solid;
-  border-color: #98FB98;
-  padding: 10px;
+  /*border-color: #98FB98;*/
+  border-color: #853D78;
+  border-radius: 40px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   list-style-position: inside;
-  color: rgb(206, 168, 255);
+  /*color: rgb(206, 168, 255);*/
+  color: #37BC9D;
   list-style-type: none;
   font-family: Arial, Helvetica, sans-serif;
+  /*display: flex;
+  flex-direction: column;
+  align-content: center;*/
 }
 
 .cake-ingredients {
-  background-image: url("Images/StockImage_EvergreenLeaves.jpg");
+  /*background-image: url("Images/eXn_cyberpunk_city_street_bladerunner_neon_dark_windows_detaile_76784dde-dc4a-4800-99ad-08bc9b7b82bd\ \(2\).png");
+  background-repeat: round;*/
+  background-color: #332251;
 }
 
+
 .kitchen-equipment {
-  background-image: url("Images/StockImage_DayMoon.jpg");
+  /*background-image: url("Images/eXn_cyberpunk_city_street_bladerunner_neon_dark_windows_detaile_76784dde-dc4a-4800-99ad-08bc9b7b82bd\ \(2\).png");
+  background-repeat: round;*/
+  background-color: #332251;
 }
 
 .kitchen-equipment, .cake-ingredients {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #642580;
+  background-color: #096C7D;
   background-size: cover;
   min-height: 60%;
-
   background-attachment: fixed;
   min-height: 20%;
-  opacity: 0.7;
+  /*opacity: 0.9;*/
 }
 
 /*.cd-logo {
@@ -214,6 +250,8 @@ h3 {
 .textSection {
   background-color:#000000;
   padding:10px 40px;
+  min-height: 20%;
+  display: flex;
 }
 
 body, html {
