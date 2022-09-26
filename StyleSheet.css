@@ -94,6 +94,7 @@ h1 {
     /*color: #7FFFD4;*/
     color: #5BFFE6;
     text-decoration: none;
+    text-shadow: #F9D3A9;
     font-family: Helvetica, sans-serif;
     padding: 15px;
   }
@@ -113,6 +114,7 @@ p {
     /*background-color: darkslateblue;*/
     /*background-color: #6E599D;*/
     font-family: Helvetica, sans-serif;
+    text-shadow: 1px 2px #cc67da;
   }
 
 /* button */ 
@@ -202,21 +204,21 @@ ul.list1 {
 .cake-ingredients {
   /*background-image: url("Images/eXn_cyberpunk_city_street_bladerunner_neon_dark_windows_detaile_76784dde-dc4a-4800-99ad-08bc9b7b82bd\ \(2\).png");
   background-repeat: round;*/
-  background-color: #332251;
+  background-color: #096C7D;
 }
 
 
 .kitchen-equipment {
   /*background-image: url("Images/eXn_cyberpunk_city_street_bladerunner_neon_dark_windows_detaile_76784dde-dc4a-4800-99ad-08bc9b7b82bd\ \(2\).png");
   background-repeat: round;*/
-  background-color: #332251;
+  background-color: #472860;
 }
 
 .kitchen-equipment, .cake-ingredients {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #096C7D;
+  background-color: #472860;
   background-size: cover;
   min-height: 60%;
   background-attachment: fixed;
